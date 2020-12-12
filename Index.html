@@ -6,61 +6,67 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Esta es la descripcion de la pagina web">
+    <link rel="stylesheet" href="Css/style.css">
 
     <title>Index HTTML</title>
 </head>
 <body>
-    <header style="background-color: coral;">
-        <h1>PRIMER BLOG</h1>
-    </header>
-
-    <nav style="background-color: chartreuse;">
-        <ul>
-            <li>Principal</li>
-            <li>ayuda</li>
-            <li>Contacto</li>
-        </ul>
-    </nav>
-
-    <section style="background-color: rgba(0, 0, 0, 0.33);">
-        <article>
-            <hgroup>
-                <h2>Titulo Primer Articulo</h2>
-                <h3>Subtitulo</h3>
-            </hgroup>
-            
-            <time datetime="12-08-2020"> Publicado el dia</time>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est odio doloremque nesciunt, nam molestias, officiis hic odit, animi magnam quod voluptas laudantium! Minima distinctio delectus modi optio similique vel quam.</p>
-            <img src="images/code.jpg" alt="" style="width: 500px; margin: auto;">
-        </article>
-
-        <article>
-            <hgroup>
-                <h2>Titulo Segundo Articulo</h2>
-                <h3>Subtitulo</h3>                
-            </hgroup>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deserunt labore harum nostrum incidunt tempora tenetur id veritatis at ex.</p>
-            <footer>
-                <a href="www.google.com">VISITAR GOOGLE.COM</a>
-            </footer>
-        </article>
-    </section>
-
-    <aside style="background-color: blue;">
-        <blockquote cite="http://google.com">
-            Mensaje 1
-        </blockquote>
-        <blockquote cite="Http://google.com">
-            Mensaje 2
-        </blockquote>
-        Archivo
-
-        Acerca de: 
-    </aside>
-
-    <footer style="background-color: aqua;">
-        Derechos reservados 2010-2020
-    </footer>
+    <div class="agrupar">
+        <header class="header">
+            <h1>PRIMER BLOG</h1>
+        </header>
+    
+        <nav class="navbar">
+            <ul class="menu">
+                <li>Principal</li>
+                <li>Ayuda</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    
+        <section class="seccion">
+            <article>
+                <hgroup>
+                    <h2>Titulo Primer Articulo</h2>
+                    <h3>Subtitulo</h3>
+                </hgroup>
+                
+                <time datetime="12-08-2020"> Publicado el dia</time>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est odio doloremque nesciunt, nam molestias, officiis hic odit, animi magnam quod voluptas laudantium! Minima distinctio delectus modi optio similique vel quam.</p>
+                <img src="images/code.jpg" alt="">
+            </article>
+    
+            <article>
+                <hgroup>
+                    <h2>Titulo Segundo Articulo</h2>
+                    <h3>Subtitulo</h3>                
+                </hgroup>
+                <time datetime="12-08-2020"> Publicado el dia</time>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deserunt labore harum nostrum incidunt tempora tenetur id veritatis at ex.</p>
+                <footer>
+                    <a href="www.google.com">VISITAR GOOGLE.COM</a>
+                </footer>
+            </article>
+        </section>
+    
+        <aside class="columna">
+            <blockquote cite="http://google.com">
+                Mensaje 1
+            </blockquote>
+            <blockquote cite="Http://google.com">
+                Mensaje 2
+            </blockquote>
+            <blockquote cite="http://google.com">
+                Mensaje 1
+            </blockquote>
+            <blockquote cite="Http://google.com">
+                Mensaje 2
+            </blockquote>
+        </aside>
+    
+        <footer class="pie">
+            Derechos reservados 2010-2020
+        </footer>
+    </div>
 </body>
 </html>
